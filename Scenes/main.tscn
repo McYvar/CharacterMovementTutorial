@@ -9,4 +9,3 @@
 position = Vector2(568, 346)
 
 [node name="TileMap" parent="." instance=ExtResource("2_78nld")]
-position = Vector2(549, 566)
