@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://sj0m8x82va3v"]
+
+[ext_resource type="PackedScene" uid="uid://sbsw6t0xgeuk" path="res://PrefabScenes/WhiteBox.tscn" id="1_mp6ju"]
+[ext_resource type="PackedScene" uid="uid://c2bch55l7pgg6" path="res://PrefabScenes/Terrain.tscn" id="2_78nld"]
+
+[node name="Main" type="Node2D"]
+
+[node name="WhiteBoxCharacter" parent="." instance=ExtResource("1_mp6ju")]
+position = Vector2(568, 346)
+
+[node name="TileMap" parent="." instance=ExtResource("2_78nld")]
+position = Vector2(549, 566)
